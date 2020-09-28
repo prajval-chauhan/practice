@@ -26,7 +26,8 @@ namespace Classwork
                     
             }
                 Console.WriteLine("Total Attendance = " + present +"Total Leaves = " + leave);
-           
+            int wph = 20; int fdh = 8;
+            int daily_wage = present * wph * fdh; 
         }
     }
 }
