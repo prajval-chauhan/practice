@@ -31,6 +31,7 @@ namespace Classwork
             int pth = 8;
             int part_time_salary = pth * wph;
             Console.WriteLine("Monthly wage of the employee is : Rs. " +regular_wage);
+            Console.WriteLine("Total Monthly wage of the employee is: Rs. " +(regular_wage + part_time_salary));
         }
     }
 }
