@@ -27,10 +27,10 @@ namespace Classwork
             }
                 Console.WriteLine("Total Attendance = " + present +"Total Leaves = " + leave);
             int wph = 20; int fdh = 8;
-            int daily_wage = present * wph * fdh;
+            int regular_wage = present * wph * fdh;
             int pth = 8;
             int part_time_salary = pth * wph;
-
+            Console.WriteLine("Monthly wage of the employee is : Rs. " +regular_wage);
         }
     }
 }
